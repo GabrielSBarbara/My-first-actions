@@ -1,0 +1,33 @@
+<meta charset = "UTF-8">
+
+<script>
+	
+	function pulaLinha() {
+		document.write("<br>");
+	};
+
+	function comandar(frase) {
+		document.write(frase);
+		pulaLinha();
+	};
+
+	var número = 30
+
+	while (número <= 40) {
+
+		if(número == 33) {
+			número = número + 1;
+		};
+
+		if(número == 37) {
+			número = número + 1;
+		} else {
+			comandar(número);
+			número = número + 1;
+
+		};
+	};
+
+	comandar("FIM!!");
+	
+</script>

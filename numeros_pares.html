@@ -1,0 +1,23 @@
+<meta charset = "UTF-8">
+
+<script>
+	
+	function pulaLinha() {
+		document.write("<br>");
+	};
+
+	function comandar(frase) {
+		document.write(frase);
+		pulaLinha();
+	};
+
+	var númerosPares = 0;
+
+	while (númerosPares <= 100) {
+		comandar(númerosPares + "par");
+		númerosPares = númerosPares + 2
+	};
+
+	comandar("FIM!!");
+	
+</script>

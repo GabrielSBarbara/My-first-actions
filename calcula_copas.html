@@ -1,0 +1,23 @@
+<meta charset = "UTF-8">
+
+<script>
+	function pulaLinha () {
+		document.write("<br>");
+	};
+
+	function comandar (frase) {
+		document.write(frase);
+		pulaLinha();
+	};
+
+	var escolhaAno = parseInt(prompt("Escolha o ano!"));
+	var anoCopas = 1930;
+
+	while (anoCopas <= escolhaAno) {
+		comandar("Teve copa em " + anoCopas);
+		anoCopas = anoCopas + 4;
+	};
+
+	comandar("ATÉ HOJE!!");
+
+</script>
